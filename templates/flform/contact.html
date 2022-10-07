@@ -3,9 +3,9 @@
 {% block content %}
 {{ super() }}
 <form action="/contact" method="post" class="contact-form">
-    <p><label for="username">Имя:</label><input type="text" name="username" value="" required></p>
-    <p><label for="email">Email: </label><input type="text" name="email" value="" required></p>
-    <p><label for="username">Имя:</label></p>
+    <p><label for="username">Имя: </label> <input type="text" name="username" value="" required></p>
+    <p><label for="email">Email: </label> <input type="text" name="email" value="" required></p>
+    <p><label for="message">Сообщение :</label></p>
     <p>
         <textare name="message" rows="7 cols=40"></textare>
     </p>
