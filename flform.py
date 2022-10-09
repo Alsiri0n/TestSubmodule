@@ -6,7 +6,7 @@ from flask import Blueprint,render_template,request,flash
 flform = Blueprint('flokoform', __name__, template_folder='templates', static_folder='static')
 
 
-@flform.route('/', methods=["POST"])
+@flform.route('/', methods=["GET", "POST"])
 def index():
     """
     Test index page for submodule
