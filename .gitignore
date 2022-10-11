@@ -3,4 +3,4 @@ __pycache__/
  *.pyc
 .vscode
 run.py
-tempalates/base.html
+templates/base.html
