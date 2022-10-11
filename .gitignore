@@ -3,4 +3,5 @@ __pycache__/
  *.pyc
 .vscode
 run.py
-templates/base.html
+templates/*
+!templates/flform
