@@ -1,9 +1,9 @@
 """
-Test submodule working for Jenkins CI/CD
+Flask form submodule
 """
 from flask import Blueprint,render_template,request,flash
 
-flform = Blueprint('flokoform', __name__, template_folder='templates', static_folder='static')
+flform = Blueprint('flform', __name__, template_folder='templates', static_folder='static')
 
 
 @flform.route('/', methods=["GET", "POST"])
